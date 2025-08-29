@@ -19,12 +19,13 @@ export default function ComingSoon() {
         </div>
         <h2 className="text-4xl xl:text-6xl font-bold">Mr.Chai</h2>
       </div>
-      <div className="w-full flex flex-col gap-5 justify-center bg-primary min-h-[55vh] md:min-h-[50vh] xl:min-h-screen xl:bg-transparent xl:max-w-[50%] p-6 pt-32 xl:pt-40 xl:px-16 rounded-b-3xl">
+      <div className="w-full flex flex-col gap-5 justify-center bg-black min-h-[55vh] md:min-h-[50vh] xl:min-h-screen xl:bg-transparent xl:max-w-[50%] p-6 pt-32 xl:pt-40 xl:px-16 rounded-b-3xl">
         <div className="flex flex-col gap-5 justify-center">
-          <h1 className="text-5xl md:text-7xl xl:text-7xl font-bold">
-            Anytime is a good time for a cup of Tea
+          <h1 className="text-4xl md:text-7xl xl:text-7xl font-bold">
+            No clock needed. <br />
+            It’s always time for chai
           </h1>
-          <p>Behind every good day is a cup of tea</p>
+          <p>Behind every good day is a cup of chai</p>
         </div>
         <div className="mt-10">
           <h2 className="flex gap-1 text-2xl md:text-4xl xl:text-4xl font-bold">
@@ -44,7 +45,7 @@ export default function ComingSoon() {
         <Image
           src="/images/tea.png"
           alt="Cup of tea"
-          className="mx-auto xl:m-0"
+          className="mx-auto xl:m-0 max-w-[500px] max-h-[500px]"
           width={500}
           height={500}
         />
