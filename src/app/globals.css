@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent: #e5ab61;
 }
 
 @theme inline {
@@ -18,8 +19,9 @@
     --foreground: #ededed;
   }
 }
-@theme{
-  --color-primary:#e5ab61;
+@theme {
+  --color-primary:#000000;
+  --color-accent:#e5ab61;
 }
 body {
   background: var(--background);
@@ -39,3 +41,12 @@ body {
   }
 }
 
+.bg-white\/2 {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.bg-white\/3 {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+.bg-white\/5 {
+  background-color: rgba(255, 255, 255, 0.05);
+}

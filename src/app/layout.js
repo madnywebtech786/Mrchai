@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono, DynaPuff } from "next/font/google";
 import "./globals.css";
+import FloatingElements from "./components/FloatingElements";
+import Header from "./sections/Header";
+import Footer from "./sections/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -107,9 +110,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${dynaPuff.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${dynaPuff.variable} antialiased relative overflow-x-hidden`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
