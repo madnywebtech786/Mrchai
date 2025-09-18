@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function GallerySection() {
   const images = [
-    '/images/gallery/g1.png',
-    '/images/gallery/g5.png',
-    '/images/gallery/g2.png',
-    '/images/gallery/g3.png',
-    '/images/gallery/g4.png',
-    '/images/gallery/g6.png',
+    '/images/gallery/g1.webp',
+    '/images/gallery/g5.webp',
+    '/images/gallery/g2.webp',
+    '/images/gallery/g7.webp',
+    '/images/gallery/g4.webp',
+    '/images/gallery/g6.webp',
   ]
 
   return (

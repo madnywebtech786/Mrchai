@@ -1,10 +1,31 @@
 export default function CategoriesSection ()  {
-  const categories = [
-    { id: 1, name: 'Tea', icon: '🍵', description: 'Traditional Indian teas' },
-    { id: 2, name: 'Coffee', icon: '☕', description: 'Rich aromatic coffees' },
-    { id: 3, name: 'Samosa', icon: '🥟', description: 'Crispy triangular delights' },
-    { id: 4, name: 'Snacks', icon: '🍪', description: 'Desi treats & sides' },
-  ];
+const categories = [
+  {
+    id: 1,
+    name: 'Brunch',
+    icon: '🥪',
+    description: 'Hearty sandwiches, parathas & classic desi breakfast items',
+  },
+  {
+    id: 2,
+    name: 'Appetizers & Sides',
+    icon: '🥟',
+    description: 'Samosas, pakoras, spring rolls & small bites to share',
+  },
+  {
+    id: 3,
+    name: 'Hot & Cold Drinks',
+    icon: '🍵',
+    description: 'Signature chai, coffee & refreshing beverages',
+  },
+  {
+    id: 4,
+    name: 'Desserts',
+    icon: '🍰',
+    description: 'Sweet desi treats to finish your meal',
+  },
+];
+
 
   return (
     <section className="px-4 sm:px-8 md:px-12 lg:px-20 py-16 bg-white">

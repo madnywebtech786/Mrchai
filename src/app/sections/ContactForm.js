@@ -14,11 +14,11 @@ export default function ContactSection  () {
                 <div className="text-[#e5ab61] text-2xl mr-4">📍</div>
                 <div>
                   <h4 className="font-bold text-lg">Our Location</h4>
-                  <p className="text-gray-300">123 Spice Street, Mumbai, India</p>
+                  <p className="text-gray-300">#208 55 Westwinds Crescent NE T3J5H2</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <div className="text-[#e5ab61] text-2xl mr-4">📞</div>
                 <div>
                   <h4 className="font-bold text-lg">Phone</h4>
@@ -32,13 +32,13 @@ export default function ContactSection  () {
                   <h4 className="font-bold text-lg">Email</h4>
                   <p className="text-gray-300">hello@mrchai.com</p>
                 </div>
-              </div>
+              </div> */}
               
               <div className="flex items-start">
                 <div className="text-[#e5ab61] text-2xl mr-4">🕒</div>
                 <div>
                   <h4 className="font-bold text-lg">Opening Hours</h4>
-                  <p className="text-gray-300">Mon-Sun: 8:00 AM - 10:00 PM</p>
+                  <p className="text-gray-300">Mon-Sun: 10:00 AM - 10:00 PM</p>
                 </div>
               </div>
             </div>

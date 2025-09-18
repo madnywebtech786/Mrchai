@@ -26,7 +26,7 @@ export default function AboutSection() {
             <p className="text-gray-700 mb-6 text-lg">
               Founded with a passion for authentic Indian flavors, Mr. Chai
               brings the warmth of traditional Indian cafés to your
-              neighborhood. Our journey began in 2010 with a simple mission: to
+              neighborhood. Our journey began a simple mission: to
               serve the perfect cup of chai.
             </p>
             <p className="text-gray-700 mb-6 text-lg">
@@ -37,13 +37,13 @@ export default function AboutSection() {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
-                  <span className="text-black font-bold">12+</span>
+                  <span className="text-black font-bold">15+</span>
                 </div>
                 <span className="text-gray-700">Years of Experience</span>
               </div>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
-                  <span className="text-black font-bold">50+</span>
+                  <span className="text-black font-bold">35+</span>
                 </div>
                 <span className="text-gray-700">Menu Items</span>
               </div>

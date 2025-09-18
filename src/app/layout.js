@@ -110,9 +110,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${dynaPuff.variable} antialiased relative overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} ${dynaPuff.variable} antialiased relative overflow-x-hidden min-h-screen bg-white dark:bg-white`}
       >
-        {children}
+        <Header />
+        {children} 
+        <Footer />
       </body>
     </html>
   );

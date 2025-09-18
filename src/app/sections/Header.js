@@ -9,6 +9,8 @@ import {
   ChevronDown,
   Menu as MenuIcon,
   X,
+  Facebook,
+  Instagram,
 } from "lucide-react";
 
 const navItems = [
@@ -16,29 +18,29 @@ const navItems = [
   { name: "Menu", href: "/menu" },
   { name: "About", href: "/about-us" },
   { name: "Gallery", href: "/gallery" },
-//   {
-//     name: "Services",
-//     href: "#",
-//     dropdown: [
-//       { name: "Home Renovation", href: "/services/home-renovation" },
-//       { name: "Basement Renovation", href: "/services/basement-renovation" },
-//       { name: "Basement Lemination", href: "/services/basement-lemaination" },
-//       { name: "Kitchen Remodeling", href: "/services/kitchen-remodeling" },
-//       { name: "Bathroom Remodeling", href: "/services/bathroom-remodeling" },
-//       { name: "Flooring", href: "/services/flooring" },
-//       { name: "Interior", href: "/services/interior" },
-//       { name: "Garage Development", href: "/services/garage-development" },
+  //   {
+  //     name: "Services",
+  //     href: "#",
+  //     dropdown: [
+  //       { name: "Home Renovation", href: "/services/home-renovation" },
+  //       { name: "Basement Renovation", href: "/services/basement-renovation" },
+  //       { name: "Basement Lemination", href: "/services/basement-lemaination" },
+  //       { name: "Kitchen Remodeling", href: "/services/kitchen-remodeling" },
+  //       { name: "Bathroom Remodeling", href: "/services/bathroom-remodeling" },
+  //       { name: "Flooring", href: "/services/flooring" },
+  //       { name: "Interior", href: "/services/interior" },
+  //       { name: "Garage Development", href: "/services/garage-development" },
 
-//       {
-//         name: "Other Services",
-//         href: "#",
-//         dropdown: [
-//           { name: "Framing", href: "/services/framing" },
-//           { name: "Electrical", href: "/services/electrical" },
-//         ],
-//       },
-//     ],
-//   },
+  //       {
+  //         name: "Other Services",
+  //         href: "#",
+  //         dropdown: [
+  //           { name: "Framing", href: "/services/framing" },
+  //           { name: "Electrical", href: "/services/electrical" },
+  //         ],
+  //       },
+  //     ],
+  //   },
 
   { name: "Contact", href: "/contact" },
 ];
@@ -106,7 +108,10 @@ const Header = () => {
           <nav className="hidden lg:flex items-center">
             <ul className="flex items-center gap-10">
               {navItems.map((item) => (
-                <li key={item.name} className="relative group text-white hover:text-accent">
+                <li
+                  key={item.name}
+                  className="relative group text-white hover:text-accent"
+                >
                   <Link
                     href={item.href}
                     className={`flex items-center gap-1 text-sm font-medium uppercase transition-colors hover:text-primary-red ${
@@ -188,10 +193,7 @@ const Header = () => {
 
           <div className="flex items-center gap-2">
             <Link href="tel:+11234567890" className="hidden lg:block ml-4">
-              <div
-                className=" text-white bg-accent rounded-xl font-semibold text-sm py-[14px] px-8 transition-all duration-300 hover:bg-dark-text"
-     
-              >
+              <div className=" text-white bg-accent rounded-xl font-semibold text-sm py-[14px] px-8 transition-all duration-300 hover:bg-dark-text">
                 Call Now
               </div>
             </Link>
@@ -245,7 +247,7 @@ const Header = () => {
               />
             </div>
             <button onClick={closeMenu} aria-label="Close menu" className="p-2">
-              <X className="h-6 w-6" />
+              <X className="h-6 w-6 dark:text-black" />
             </button>
           </div>
 
@@ -253,7 +255,7 @@ const Header = () => {
           <nav className="overflow-y-auto h-[calc(100vh-64px)] p-6">
             <ul className="space-y-3">
               {navItems.map((item) => (
-                <li key={item.name} className="border-b border-gray-200 pb-2">
+                <li key={item.name} className="border-b border-gray-200 pb-2 dark:text-black">
                   {item.dropdown ? (
                     <>
                       <button
@@ -362,12 +364,36 @@ const Header = () => {
                 <div
                   onClick={closeMenu}
                   className="bg-accent rounded-xl text-white font-semibold text-sm py-[14px] px-8 w-full text-center"
-
                 >
                   Call Now
                 </div>
               </Link>
-
+              <div className=" flex gap-10 mt-6 justify-center">
+                <Link
+                  href={
+                    "https://www.facebook.com/people/Mrchaiyyc/61580072543488/"
+                  }
+                >
+                  <Facebook
+                    size={40}
+                    className="text-black bg-white rounded-full p-2"
+                  />
+                </Link>
+                <Link href={"https://www.instagram.com/mr.chaiyyc/"}>
+                  <Instagram
+                    size={40}
+                    className="text-black bg-white rounded-full p-2"
+                  />
+                </Link>
+                <Link href={"https://www.tiktok.com/@mr.chaiyyc"}>
+                  <Image
+                    width={40}
+                    height={40}
+                    src={"/images/icons/tictok.png"}
+                    className="text-black bg-white rounded-full p-2 w-10 h-10"
+                  />
+                </Link>
+              </div>
             </div>
           </nav>
         </aside>
