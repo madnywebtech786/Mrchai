@@ -15,6 +15,7 @@ export default function AboutSection() {
                   width={800}
                   height={450}
                   className="h-96 rounded-xl"
+                  alt="Mr.chai hot coffee image"
                 />
               </div>
             </div>
@@ -35,28 +36,33 @@ export default function AboutSection() {
               samosas, we celebrate time-honoured flavours and homely recipes.
             </p>
 
-        <div className="flex flex-wrap gap-4">
-  <div className="flex items-center">
-    <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
-      <span className="text-black font-bold text-lg">☕</span>
-    </div>
-    <div>
-      <div className="text-gray-700 font-semibold">Brewed fresh daily</div>
-      <div className="text-gray-500 text-sm">Small-batch blends & house recipes</div>
-    </div>
-  </div>
+            <div className="flex flex-wrap gap-4">
+              <div className="flex items-center">
+                <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
+                  <span className="text-black font-bold text-lg">☕</span>
+                </div>
+                <div>
+                  <div className="text-gray-700 font-semibold">
+                    Brewed fresh daily
+                  </div>
+                  <div className="text-gray-500 text-sm">
+                    Small-batch blends & house recipes
+                  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
-      <span className="text-black font-bold">35+</span>
-    </div>
-    <div>
-      <div className="text-gray-700 font-semibold">Menu items</div>
-      <div className="text-gray-500 text-sm">Savory & sweet favourites</div>
-    </div>
-  </div>
-</div>
-
+              <div className="flex items-center">
+                <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
+                  <span className="text-black font-bold">35+</span>
+                </div>
+                <div>
+                  <div className="text-gray-700 font-semibold">Menu items</div>
+                  <div className="text-gray-500 text-sm">
+                    Savory & sweet favourites
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
