@@ -24,30 +24,39 @@ export default function AboutSection() {
               About <span className="text-[#e5ab61]">Mr. Chai</span>
             </h2>
             <p className="text-gray-700 mb-6 text-lg">
-              Founded with a passion for authentic Indian flavors, Mr. Chai
-              brings the warmth of traditional Indian cafés to your
-              neighborhood. Our journey began a simple mission: to
-              serve the perfect cup of chai.
+              Founded with a passion for bold, comforting flavours, Mr. Chai
+              brings the warmth of traditional chai houses to your neighborhood.
+              Our journey began with a simple mission: to serve the perfect cup
+              of chai.
             </p>
             <p className="text-gray-700 mb-6 text-lg">
-              Every ingredient is carefully sourced, every recipe perfected over
-              years of tradition. From our signature masala chai to crispy
-              samosas, we honor the rich culinary heritage of India.
+              Every ingredient is carefully sourced and each recipe refined over
+              years of practice. From our signature masala chai to crispy
+              samosas, we celebrate time-honoured flavours and homely recipes.
             </p>
-            <div className="flex flex-wrap gap-4">
-              <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
-                  <span className="text-black font-bold">15+</span>
-                </div>
-                <span className="text-gray-700">Years of Experience</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
-                  <span className="text-black font-bold">35+</span>
-                </div>
-                <span className="text-gray-700">Menu Items</span>
-              </div>
-            </div>
+
+        <div className="flex flex-wrap gap-4">
+  <div className="flex items-center">
+    <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
+      <span className="text-black font-bold text-lg">☕</span>
+    </div>
+    <div>
+      <div className="text-gray-700 font-semibold">Brewed fresh daily</div>
+      <div className="text-gray-500 text-sm">Small-batch blends & house recipes</div>
+    </div>
+  </div>
+
+  <div className="flex items-center">
+    <div className="w-12 h-12 rounded-full bg-[#e5ab61] flex items-center justify-center mr-3">
+      <span className="text-black font-bold">35+</span>
+    </div>
+    <div>
+      <div className="text-gray-700 font-semibold">Menu items</div>
+      <div className="text-gray-500 text-sm">Savory & sweet favourites</div>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>

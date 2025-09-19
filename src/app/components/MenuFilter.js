@@ -373,7 +373,7 @@ export default function MenuSection({page=false}) {
                   alt={item.name}
                   width={500}
                   height={350}
-                  className="object-cover w-full h-48 rounded-xl"
+                  className="object-cover w-full h-48 rounded-t-xl"
                 />
               </div>
               <div className="p-6">
@@ -381,7 +381,6 @@ export default function MenuSection({page=false}) {
                   <h3 className="text-xl font-bold text-black">{item.name}</h3>
                   <span className="text-[#e5ab61] font-bold">{item.price}</span>
                 </div>
-                <p className="text-gray-600 mb-4">{item.description}</p>
               </div>
             </div>
           ))}
