@@ -11,7 +11,7 @@ export default function AboutSection() {
               <div className="bg-black w-64 h-64 rounded-full absolute -bottom-6 -right-6 opacity-20"></div>
               <div className="relative bg-gray-200 border-2 border-dashed rounded-xl w-full h-96">
                 <Image
-                  src={"/images/about.webp"}
+                  src={"/images/gallery/g6.webp"}
                   width={800}
                   height={450}
                   className="h-96 rounded-xl"
