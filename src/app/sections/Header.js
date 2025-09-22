@@ -192,7 +192,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-2">
-            <Link href="tel:+11234567890" className="hidden lg:block ml-4">
+            <Link href="tel:+15876799700" className="hidden lg:block ml-4">
               <div className=" text-white bg-accent rounded-xl font-semibold text-sm py-[14px] px-8 transition-all duration-300 hover:bg-dark-text">
                 Call Now
               </div>
@@ -360,7 +360,7 @@ const Header = () => {
 
             {/* CTA at bottom of menu */}
             <div className="mt-6 px-2 flex flex-col gap-4">
-              <Link href="tel:+11234567890">
+              <Link href="tel:+15876799700">
                 <div
                   onClick={closeMenu}
                   className="bg-accent rounded-xl text-white font-semibold text-sm py-[14px] px-8 w-full text-center"

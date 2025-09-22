@@ -4,7 +4,7 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export default function page() {
   return (
-    <div className="min-h-screen  bg-white dark:bg-white">
+    <div className="min-h-screen  bg-white dark:bg-white py-5">
       <Breadcrumb name={'Our Menu'} />
       <div className="px-4 sm:px-8 md:px-12 lg:px-20 py-0">
         <p className="text-white/60 mb-8">

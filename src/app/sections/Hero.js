@@ -43,7 +43,7 @@ export default function Hero() {
               <div className="absolute -top-6 -left-6 w-full h-full border-4 border-[#e5ab61] rounded-2xl z-0"></div>
               <div className="relative bg-gray-200 border-2 border-dashed rounded-2xl w-full h-96 z-10">
                 <Image
-                  src={"/images/hero.png"}
+                  src={"/images/hero.webp"}
                   width={800}
                   height={450}
                   className="h-96 rounded-2xl"
