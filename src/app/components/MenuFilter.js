@@ -65,14 +65,6 @@ export default function MenuSection({page=false}) {
       img: "/images/menu/desi-nashta.webp",
     },
     {
-      id: 7,
-      name: "English Breakfast",
-      category: "Brunch",
-      price: "$15",
-      description: "Eggs, sausage, toast, beans & tea/coffee",
-      img: "/images/menu/english-breakfast.webp",
-    },
-    {
       id: 8,
       name: "Grilled Cheese",
       category: "Brunch",
