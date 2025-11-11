@@ -86,6 +86,7 @@ export default function Footer() {
               </Link>
               <Link href={"https://www.tiktok.com/@mr.chaiyyc"}>
                 <Image
+                loading="lazy"
                   width={40}
                   height={40}
                   src={"/images/icons/tictok.png"}

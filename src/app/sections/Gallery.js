@@ -29,6 +29,7 @@ export default function GallerySection() {
                   src={image}
                   width={500}
                   height={350}
+                  loading="lazy"
                   className="object-cover"
                 />
               </div>

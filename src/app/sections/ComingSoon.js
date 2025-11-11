@@ -14,6 +14,7 @@ export default function ComingSoon() {
             alt="Mr.Chai logo"
             className="w-12 h-12 xl:w-20  xl:h-20 mx-auto object-contain"
             width={100}
+            loading="lazy"
             height={100}
           />
         </div>
@@ -48,6 +49,7 @@ export default function ComingSoon() {
           className="mx-auto xl:m-0 max-w-[500px] max-h-[500px]"
           width={500}
           height={500}
+          loading="lazy"
         />
       </div>
 

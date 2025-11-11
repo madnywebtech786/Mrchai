@@ -14,6 +14,7 @@ export default function AboutSection() {
                   src={"/images/gallery/g6.webp"}
                   width={800}
                   height={450}
+                  loading="lazy"
                   className="h-96 rounded-xl"
                   alt="Mr.chai hot coffee image"
                 />

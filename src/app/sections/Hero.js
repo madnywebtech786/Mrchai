@@ -45,7 +45,8 @@ export default function Hero() {
                 <Image
                   src={"/images/hero.webp"}
                   width={800}
-                  height={450}
+                  height={550}
+                  loading="lazy"
                   className="h-96 rounded-2xl"
                 />
               </div>

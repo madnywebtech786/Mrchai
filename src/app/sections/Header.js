@@ -101,6 +101,7 @@ const Header = () => {
               src={"/images/mr.chai-logo.png"}
               width={200}
               height={80}
+              loading="lazy"
               className="h-16 lg:h-20"
             />
           </Link>
@@ -242,6 +243,7 @@ const Header = () => {
                 src={"/images/mr.chai-logo.png"}
                 width={90}
                 height={60}
+                loading="lazy"
                 alt="logo"
                 className="w-28 h-16 object-contain"
               />
@@ -389,6 +391,7 @@ const Header = () => {
                   <Image
                     width={40}
                     height={40}
+                    loading="lazy"
                     src={"/images/icons/tictok.png"}
                     className="text-black bg-white rounded-full p-2 w-10 h-10"
                   />

@@ -39,7 +39,6 @@ export default function TestimonialsSection() {
               <div className="text-4xl text-[#e5ab61] mb-4">❝</div>
               <p className="text-gray-700 mb-6 italic">{testimonial.content}</p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-gray-200 border-2 border-dashed mr-4"></div>
                 <div>
                   <h4 className="font-bold text-black">{testimonial.name}</h4>
                   <p className="text-gray-600 text-sm">{testimonial.role}</p>

@@ -202,7 +202,7 @@ export default function MenuSection({page=false}) {
       category: "Hot & Cold Drinks",
       price: "$5",
       description: "Milky rose fusion",
-      img: "/images/menu/milk-rooh.webp",
+      img: "/images/menu/milk-rooh-magic.webp",
     },
     {
       id: 25,
@@ -218,7 +218,7 @@ export default function MenuSection({page=false}) {
       category: "Hot & Cold Drinks",
       price: "$3 / $4 (large)",
       description: "Our signature spiced chai",
-      img: "/images/menu/masala.webp",
+      img: "/images/menu/masala-chai.webp",
     },
     {
       id: 27,
@@ -226,7 +226,7 @@ export default function MenuSection({page=false}) {
       category: "Hot & Cold Drinks",
       price: "$4 / $5 (large)",
       description: "Saffron & pink salt kahwa",
-      img: "/images/menu/kashmiri.webp",
+      img: "/images/menu/kasmiri-chai.webp",
     },
     {
       id: 28,
@@ -365,6 +365,7 @@ export default function MenuSection({page=false}) {
                   alt={item.name}
                   width={500}
                   height={350}
+                  loading="lazy"
                   className="object-cover w-full h-48 rounded-t-xl"
                 />
               </div>
