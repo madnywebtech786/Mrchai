@@ -38,7 +38,7 @@ export default function MenuSection({page=false}) {
       category: "Brunch",
       price: "$11",
       description: "Spiced chicken patty, chutney & salad",
-      img: "/images/menu/chapli-burger.webp",
+      img: "/images/menu/chicken-chapli.webp",
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ export default function MenuSection({page=false}) {
       category: "Brunch",
       price: "$9",
       description: "Crispy potato patty with mint chutney",
-      img: "/images/menu/aloo-tikki.webp",
+      img: "/images/menu/aloo-tiki.webp",
     },
     {
       id: 5,
